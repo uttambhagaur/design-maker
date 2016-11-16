@@ -30,7 +30,7 @@ height:100%;
   text-align: center;
   font-weight: 200;
   clear: both;
-  position: absolute;
+  position: fixed;
   bottom: 0px;
   background-color: #009688;
   padding-top: 30px;
@@ -73,7 +73,7 @@ height:100%;
   position: absolute;
   top: 100px;
   padding-top: 20px;
-  left: 40%;
+  left: 13%;
   width:300px;
   height: 300px;
   background:#69F0AE;
@@ -87,7 +87,7 @@ box-shadow:0px 5px 7px 0px #00c853;
   padding: 10px;
   border: 0px;
   margin-top: 20px;
-  margin-left: 30px;
+  margin-left: 38px;
 }
 .login label{
     text-align: center;
@@ -102,14 +102,14 @@ box-shadow:0px 5px 7px 0px #00c853;
   display: block;
 color:#fff;
   background-color: #00C853;
-width:245px;
+width:225px;
 }
 .btn:hover{
   display: block;
 color:#fff;
 box-shadow:0px 5px 7px 0px #e0e0e0;
   background-color: #00C853;
-width:245px;
+width:225px;
 }
 /* Signup style  */
 .regcircle{
@@ -131,13 +131,13 @@ background-color:#e57373;
     padding-top: 20%;
 }
 .signup{
-    visibility: hidden;
+    
      position: absolute;
   top: 100px;
   padding-top: 20px;
-  left: 40%;
+  left: 60%;
   width:300px;
-  height: 350px;
+  height: 400px;
   background:#69F0AE;
 }
 .signup label{
@@ -159,4 +159,19 @@ box-shadow:0px 5px 7px 0px #00c853;
 }
 .signup input:focus{
   box-shadow:0px 2px 3px 0px #757575;
+ 
 }
+.temp{
+    position:absolute;
+    top:8%;
+   margin-left: 5%;
+}
+.print{
+    border: 0;
+   width: 150px;
+   height: 30px;
+   background-color: #69F0AE;
+   position: absolute;
+   right: 10%;
+}
+.container{padding-top: 100px; padding-bottom:  20px;}
